@@ -1,0 +1,41 @@
+$font-stack:  'Open Sans', sans-serif;
+$primary-color: rgb(248, 241, 241);
+$header-color:#347980;
+$rows-color: #EDF7F8;
+.App {
+  text-align: center;
+}
+
+body {
+  font: 100% $font-stack;
+  font-size: 30px;
+  background-color: $primary-color;
+}
+
+
+th.ant-table-cell {
+  color: black !important;
+  font-size: 30px;
+background-color: #DAEEF0 !important;
+}
+
+td.ant-table-cell {
+  font-size: 25px;
+}
+
+div{
+text-align: center;
+
+  h2{
+    color: white;
+    background-color: $header-color;
+    padding: 10px;
+    margin: 0px;
+    
+
+  }
+}
+
+input{
+  font-size: 25px !important;
+}
